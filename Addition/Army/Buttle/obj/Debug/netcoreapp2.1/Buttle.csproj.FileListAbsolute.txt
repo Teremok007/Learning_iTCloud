@@ -1,0 +1,11 @@
+C:\Users\Sergey\source\repos\Buttle\Buttle\obj\Debug\netcoreapp2.1\Buttle.csprojAssemblyReference.cache
+C:\Users\Sergey\source\repos\Buttle\Buttle\obj\Debug\netcoreapp2.1\Buttle.csproj.CoreCompileInputs.cache
+C:\Users\Sergey\source\repos\Buttle\Buttle\obj\Debug\netcoreapp2.1\Buttle.AssemblyInfoInputs.cache
+C:\Users\Sergey\source\repos\Buttle\Buttle\obj\Debug\netcoreapp2.1\Buttle.AssemblyInfo.cs
+C:\Users\Sergey\source\repos\Buttle\Buttle\bin\Debug\netcoreapp2.1\Buttle.deps.json
+C:\Users\Sergey\source\repos\Buttle\Buttle\bin\Debug\netcoreapp2.1\Buttle.runtimeconfig.json
+C:\Users\Sergey\source\repos\Buttle\Buttle\bin\Debug\netcoreapp2.1\Buttle.runtimeconfig.dev.json
+C:\Users\Sergey\source\repos\Buttle\Buttle\bin\Debug\netcoreapp2.1\Buttle.dll
+C:\Users\Sergey\source\repos\Buttle\Buttle\bin\Debug\netcoreapp2.1\Buttle.pdb
+C:\Users\Sergey\source\repos\Buttle\Buttle\obj\Debug\netcoreapp2.1\Buttle.dll
+C:\Users\Sergey\source\repos\Buttle\Buttle\obj\Debug\netcoreapp2.1\Buttle.pdb
