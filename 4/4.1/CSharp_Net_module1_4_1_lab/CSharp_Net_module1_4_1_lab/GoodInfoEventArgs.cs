@@ -11,9 +11,12 @@ namespace CSharp_Net_module1_4_1_lab
     {
         // 2) declare property GoodsName
         // think about get and set attributes
-      
+        public string GoodName { get; }
 
         // 3) declare constructor to initialize GoodsName
-       
+       public GoodsInfoEventArgs(string GoodName)
+        {
+            this.GoodName = GoodName;
+        }
     }
 }

@@ -1,0 +1,11 @@
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.1\Calculator.csprojAssemblyReference.cache
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.1\Calculator.csproj.CoreCompileInputs.cache
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfoInputs.cache
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfo.cs
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1\Calculator.deps.json
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1\Calculator.runtimeconfig.json
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1\Calculator.runtimeconfig.dev.json
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1\Calculator.dll
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1\Calculator.pdb
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.1\Calculator.dll
+D:\projects\ITCloud\Calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp2.1\Calculator.pdb

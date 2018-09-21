@@ -1,0 +1,14 @@
+C:\Users\eshenko\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+C:\Users\eshenko\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+C:\Users\eshenko\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+C:\Users\eshenko\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.csprojAssemblyReference.cache
+C:\Users\eshenko\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\eshenko\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+C:\Users\eshenko\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\obj\Debug\ConsoleApp5.csprojAssemblyReference.cache
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
