@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
-    public class IntEnumerator : IEnumerable,  IEnumerator
+    public delegate bool Conditions(int arg);
+    public class IntEnumerator :  IEnumerator
     {
         private int[] values;
         private int position = -1;
@@ -30,7 +31,7 @@ namespace ConsoleApp5
         }
         public bool MoveNext()
         {
-            while ((++position < values.Length) && (!isSimple(values[position]))) ;                
+            while ((++position < values.Length) && ((condition == null)? false: !condition.Invoke(values[position]))){ }
             return (position < values.Length);
         }
         public void Reset()
@@ -43,12 +44,6 @@ namespace ConsoleApp5
             this.Reset();
             return this;
         }
-        protected static bool isSimple(int x)
-        {
-            double sqrtX = Math.Sqrt(x);
-            for (int i = 2; i <= sqrtX; i++)
-                if (x % i == 0) return false;
-            return true;
-        }        
+        public Conditions condition;        
     }
 }

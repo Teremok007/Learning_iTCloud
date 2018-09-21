@@ -8,6 +8,14 @@ namespace ConsoleApp5
 {
     class Program
     {
+        public  enum OutType
+        {
+            Default,
+            SimpleNumbers,
+            EvenNumbers,
+            OddNumbers,
+            AllNumbers            
+        }
         static void Main(string[] args)
         {
             try
@@ -60,9 +68,41 @@ namespace ConsoleApp5
                         Console.ForegroundColor = ConsoleColor.DarkGray;
                     }
 
+                    
                     IntEnumerator ie = new IntEnumerator(values);
+                    OutType OutputType;
+                    do
+                    {
+                        OutputType = GetOutputType();
+                        string Caption = "";
+                        switch (OutputType)
+                        {
+                            case OutType.SimpleNumbers:
+                                ie.condition = IsSimple;
+                                Caption = "Простые числа из массива";
+                                break;
+                            case OutType.EvenNumbers:
+                                ie.condition = Even;
+                                Caption = "Только четные";
+                                break;
+                            case OutType.OddNumbers:
+                                ie.condition = Odd;
+                                Caption = "Нечетные числа";
+                                break;
+                            case OutType.AllNumbers:
+                                ie.condition = null;
+                                Caption = "Все числа в массиве";
+                                break;
+                        }
+                        Console.WriteLine();
+                        Console.WriteLine($"----- {Caption} ----");
+                        Console.WriteLine();
+                        foreach (int item in ie)
+                            Console.Write($"{item} ");
+
+                    } while (OutputType != OutType.Default);
                     Console.WriteLine("----- Простые числа из массива ----");
-                    foreach (var item in ie)
+                    foreach (int item in ie)
                     {
                         Console.Write($"{item} ");
                     }
@@ -81,7 +121,66 @@ namespace ConsoleApp5
             catch (Exception e)
             {
                 Console.WriteLine("Error" + e.Message);
-            }            
+            }
+        }
+
+        public static bool Even(int x)
+        {
+            return x % 2 == 0;
+        }
+        public static bool Odd(int x)
+        {
+            return x % 2 == 1;
+        }
+
+        public static bool IsSimple(int x)
+        {
+            double sqrtX = Math.Sqrt(x);
+            for (int i = 2; i <= sqrtX; i++)
+                if (x % i == 0) return false;
+            return true;
+        }
+
+        public static OutType GetOutputType()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine();
+            try
+            {
+                Console.WriteLine(@"--- Вывод на экран
+        1. Простые числа
+        2. Четные
+        3. Не четные
+        4. вывести весь массив
+           Выход");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine();
+                Console.Write("Выберите пункт меню: ");
+
+                int YourChoose = 0;
+                int.TryParse(Console.ReadLine(), out YourChoose);
+                switch (YourChoose)
+                {
+                    case 1:
+                        return OutType.SimpleNumbers;
+
+                    case 2:
+                        return OutType.EvenNumbers;
+                        
+                    case 3:
+                        return OutType.OddNumbers;
+                    case 4:
+                        return OutType.AllNumbers;                        
+
+                    default:
+                        return OutType.Default;
+                }
+            }
+            finally
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+            }
+            
         }
     }
 }
