@@ -92,26 +92,14 @@ namespace ConsoleApp5
                             case OutType.AllNumbers:
                                 ie.condition = null;
                                 Caption = "Все числа в массиве";
-                                break;
+                                break;                            
                         }
-                        Console.WriteLine();
-                        Console.WriteLine($"----- {Caption} ----");
-                        Console.WriteLine();
-                        foreach (int item in ie)
-                            Console.Write($"{item} ");
-
+                        if (OutputType != OutType.Default)
+                        {
+                            PrintEnumerable(ie, Caption);
+                        }
                     } while (OutputType != OutType.Default);
-                    Console.WriteLine("----- Простые числа из массива ----");
-                    foreach (int item in ie)
-                    {
-                        Console.Write($"{item} ");
-                    }
-                    Console.WriteLine();
-                    Console.WriteLine("----- Выведем ещё раз -----");
-                    foreach (var item in ie)
-                    {
-                        Console.Write($"{item} ");
-                    }
+
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.WriteLine("Press any key for continue or 'q'('Q') for Quit.");
@@ -123,7 +111,15 @@ namespace ConsoleApp5
                 Console.WriteLine("Error" + e.Message);
             }
         }
-
+        public static void PrintEnumerable(System.Collections.IEnumerable arr, string Caption)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"----- {Caption} ----");
+            Console.WriteLine();
+            foreach (int item in arr)
+                Console.Write($"{item} ");
+        }
+        //--------------------------------------------------------------------------------------
         public static bool Even(int x)
         {
             return x % 2 == 0;
@@ -135,6 +131,7 @@ namespace ConsoleApp5
 
         public static bool IsSimple(int x)
         {
+            if (x < 2) return false;
             double sqrtX = Math.Sqrt(x);
             for (int i = 2; i <= sqrtX; i++)
                 if (x % i == 0) return false;
@@ -147,7 +144,7 @@ namespace ConsoleApp5
             Console.WriteLine();
             try
             {
-                Console.WriteLine(@"--- Вывод на экран
+                Console.WriteLine(@"      Вывод на экран
         1. Простые числа
         2. Четные
         3. Не четные
