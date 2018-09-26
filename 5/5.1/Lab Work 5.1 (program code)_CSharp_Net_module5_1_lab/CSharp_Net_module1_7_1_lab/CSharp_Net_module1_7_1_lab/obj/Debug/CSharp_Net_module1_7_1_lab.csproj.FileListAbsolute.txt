@@ -1,0 +1,12 @@
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.pdb
+d:\projects\ITCloud\Work\5\5.1\Lab Work 5.1 (program code)_CSharp_Net_module5_1_lab\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.csprojAssemblyReference.cache
+d:\projects\ITCloud\Work\5\5.1\Lab Work 5.1 (program code)_CSharp_Net_module5_1_lab\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.csproj.CoreCompileInputs.cache
+d:\projects\ITCloud\Work\5\5.1\Lab Work 5.1 (program code)_CSharp_Net_module5_1_lab\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.exe
+d:\projects\ITCloud\Work\5\5.1\Lab Work 5.1 (program code)_CSharp_Net_module5_1_lab\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.pdb
+d:\projects\ITCloud\Work\5\5.1\Lab Work 5.1 (program code)_CSharp_Net_module5_1_lab\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.exe.config
+d:\projects\ITCloud\Work\5\5.1\Lab Work 5.1 (program code)_CSharp_Net_module5_1_lab\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.exe
+d:\projects\ITCloud\Work\5\5.1\Lab Work 5.1 (program code)_CSharp_Net_module5_1_lab\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.pdb

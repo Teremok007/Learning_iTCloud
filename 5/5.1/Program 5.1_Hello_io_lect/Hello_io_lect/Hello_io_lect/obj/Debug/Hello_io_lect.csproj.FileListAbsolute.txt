@@ -1,0 +1,9 @@
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_io_lect\Hello_io_lect\bin\Debug\Hello_io_lect.exe.config
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_io_lect\Hello_io_lect\bin\Debug\Hello_io_lect.exe
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_io_lect\Hello_io_lect\bin\Debug\Hello_io_lect.pdb
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_io_lect\Hello_io_lect\obj\Debug\Hello_io_lect.exe
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_io_lect\Hello_io_lect\obj\Debug\Hello_io_lect.pdb
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_io_lect\Hello_io_lect\obj\Debug\Hello_io_lect.csprojResolveAssemblyReference.cache
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_io_lect\Hello_io_lect\bin\Debug\Hello_io_lect.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_io_lect\Hello_io_lect\obj\Debug\Hello_io_lect.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_io_lect\Hello_io_lect\obj\Debug\Hello_io_lect.pdb
