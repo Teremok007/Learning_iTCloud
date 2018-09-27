@@ -1,0 +1,7 @@
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\obj\Debug\EasyNumbers.csprojAssemblyReference.cache
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\obj\Debug\EasyNumbers.csproj.CoreCompileInputs.cache
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+d:\projects\ITCloud\Work\Addition\IntIEnumerator\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
