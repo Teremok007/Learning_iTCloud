@@ -120,16 +120,25 @@ namespace CSharp_Net_module1_7_1_lab
                     using (GZipStream compressionStream = new GZipStream(source_fs, CompressionMode.Decompress))
                     {
                         compressionStream.CopyTo(tempFile);
+                        tempFile.Flush();
+                        tempFile.Seek(0, SeekOrigin.Begin);
                         using (BinaryReader br = new BinaryReader(tempFile))
                         {
-                            Computer computer = new Computer();
-                            computer.Cores = br.ReadInt32();
-                            computer.Frequency = br.ReadDouble();
-                            computer.Memory = br.ReadInt32();
-                            computer.Hdd = br.ReadInt32();
-                            computersInfo.Add(computer.ToString());
+                            while (br.PeekChar() != -1)
+                            {
+                                Computer computer = new Computer();
+                                computer.Cores = br.ReadInt32();
+                                computer.Frequency = br.ReadDouble();
+                                computer.Memory = br.ReadInt32();
+                                computer.Hdd = br.ReadInt32();
+                                computersInfo.Add(computer.ToString());
+                            }
                         }
-                    }
+                    }                    
+                }
+                if (File.Exists(TemporaryFile))
+                {
+                    File.Delete(TemporaryFile);
                 }
 
             }

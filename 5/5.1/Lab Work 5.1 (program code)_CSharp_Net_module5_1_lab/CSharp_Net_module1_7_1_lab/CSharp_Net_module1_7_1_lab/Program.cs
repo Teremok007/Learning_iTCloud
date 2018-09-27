@@ -38,7 +38,14 @@ namespace CSharp_Net_module1_7_1_lab
             // Note: create another file for these operations
             inouter.WriteZip();
             StringCollection compInfo = inouter.ReadZip();
+            Console.WriteLine("======= Read from ZIP file ===================== ");
+            foreach (var cinfo in compInfo)
+            {
+                Console.WriteLine(cinfo);
+            }
+            Console.WriteLine("================================================ ");
             // 6) read info about computers asynchronously (from the 1st file)
+
             // While asynchronous method will be running, Main() method must print ‘*’ 
 
             // use 
