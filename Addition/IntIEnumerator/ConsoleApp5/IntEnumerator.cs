@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp5
 {
     public delegate bool Conditions(int arg);
-    public class IntEnumerator :  IEnumerator
+    public class IntEnumerator :  IEnumerable, IEnumerator
     {
         private int[] values;
         private int position = -1;
